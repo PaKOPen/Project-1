@@ -1,0 +1,70 @@
+@font-face {
+    font-family: selectedFont;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+body {
+    font-family: selectedFont;
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%);
+    
+    /* margin-left: auto;
+    margin-right: auto;
+    align: center; */
+}
+hr {
+    border-top: 1px solid hsl(215, 29%, 49%)
+}
+section {
+    width: 300px;
+    padding: 20px;
+    margin: auto auto;
+    /* height: auto; */
+    border: 1px solid blue;
+    background-color: hsl(216, 50%, 16%);
+    color:  hsl(215, 32%, 27%);
+    /* color: hsl(0, 0%, 100%); */
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0.5 0.5px black
+}
+article > a > img {
+    width: 260px;
+    border-radius: 10px 10px 0 0;
+}
+.text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.float-right {
+    float: right
+}
+.float-left {
+    float: left
+}
+.clearfix {
+    clear: both;
+    
+}
+div p {
+    /* text-align: center; */
+    vertical-align: middle;
+    display: inline-block;
+}
+/* div{
+    display: grid
+} */
+.passport {
+    width: 40px;
+    height: 40px;
+    border-color: 20px solid black;
+    border-radius: 50%;
+
+}
+div img, div p {
+    align-items: center;
+}
+a:link {
+    text-decoration: none;
+}
