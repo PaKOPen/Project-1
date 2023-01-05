@@ -10,7 +10,8 @@ body {
     font-weight: 300;
 }
 hr {
-    border-top: 0px solid hsl(215, 29%, 49%)
+    background-color: hsl(215, 29%, 49%);
+    border: 1px solid hsl(215, 29%, 49%)
 }
 section {
     width: 300px;
